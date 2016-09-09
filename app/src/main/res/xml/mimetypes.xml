@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+ * Copyright (C) 2007-2008 OpenIntents.org
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ -->
+<MimeTypes>
+<!-- Image types -->
+    <type extension=".png" mimeType="image/png" icon="@mipmap/file_icon_picture" />
+    <type extension=".gif" mimeType="image/gif" icon="@mipmap/file_icon_picture" />
+    <type extension=".jpg" mimeType="image/jpeg" icon="@mipmap/file_icon_picture" />
+    <type extension=".jpeg" mimeType="image/jpeg" icon="@mipmap/file_icon_picture" />
+    <type extension=".bmp" mimeType="image/bmp" icon="@mipmap/file_icon_picture" />
+
+    <!-- Audio types -->
+    <type extension=".mp3" mimeType="audio/mpeg" icon="@mipmap/file_icon_mp3" />
+    <type extension=".wav" mimeType="audio/x-wav" icon="@mipmap/file_icon_wav" />
+    <type extension=".ogg" mimeType="application/ogg" icon="@mipmap/file_icon_ogg" />
+    <type extension=".mid" mimeType="audio/midi" icon="@mipmap/file_icon_mid" />
+    <type extension=".midi" mimeType="audio/midi" icon="@mipmap/file_icon_mid" />
+    <type extension=".amr" mimeType="audio/amr" icon="@mipmap/file_icon_amr" />
+    <type extension=".aac" mimeType="audio/x-aac" icon="@mipmap/file_icon_aac" /> <!-- NOT IN WEBKIT -->
+
+    <!-- Video types -->
+    <type extension=".mpeg" mimeType="video/mpeg" icon="@mipmap/file_icon_video" />
+    <type extension=".3gp" mimeType="video/3gpp" icon="@mipmap/file_icon_3gpp" />
+    <type extension=".mp4" mimeType="video/mp4" icon="@mipmap/file_icon_video" />
+
+    <!-- Package types -->
+    <type extension=".zip" mimeType="application/zip" icon="@mipmap/file_icon_zip" />
+    <type extension=".rar" mimeType="application/rar" icon="@mipmap/file_icon_rar" />
+
+    <!-- Web browser types -->
+    <type extension=".htm" mimeType="text/html" icon="@mipmap/file_icon_html" />
+    <type extension=".html" mimeType="text/html" icon="@mipmap/file_icon_html" />
+
+    <!-- Text types -->
+    <type extension=".txt" mimeType="text/plain" icon="@mipmap/file_icon_txt" />
+    <type extension=".ppt" mimeType="application/vnd.ms-powerpointtd" icon="@mipmap/file_icon_ppt" />
+    <type extension=".doc" mimeType="application/msword" icon="@mipmap/file_icon_doc" />
+    <type extension=".xls" mimeType="text/xls" icon="@mipmap/file_icon_xls" />
+    <type extension=".xml" mimeType="text/xml" icon="@mipmap/file_icon_xml" />
+    <type extension=".pdf" mimeType="application/pdf" icon="@mipmap/file_icon_pdf" />
+
+    <!-- Android specific -->
+    <type extension=".apk" mimeType="application/vnd.android.package-archive" icon="@mipmap/file_icon_apk" />
+
+</MimeTypes>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/content_input"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:textColor="@color/secondary_text"
+        android:textSize="15sp"
+        android:text="@string/dialog_new_download_url_label"/>
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/download_url_hint"
+        android:maxLines="5"
+        android:textStyle="italic"
+        android:layout_marginTop="4dp"
+        android:textSize="16sp"/>
+
+    <android.support.v7.widget.AppCompatButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btn_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="right"
+        android:enabled="false"
+        android:text="@string/dialog_new_download_btn_next"/>
+</LinearLayout>

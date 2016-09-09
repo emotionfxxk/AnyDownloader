@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name" translatable="false">Any Downloader</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_browser">Browser</string>
+    <string name="setting_title">Settings</string>
+
+    <string name="download_auto_resume">Download auto resume</string>
+    <string name="wifi_network_only">Wifi Network Only</string>
+    <string name="download_path_setting">Download Path setting</string>
+
+    <string name="tab_running">running</string>
+    <string name="tab_running_fmt">running(%1$d)</string>
+    <string name="tab_finished">finished</string>
+    <string name="tab_finished_fmt">finished(%1$d)</string>
+    <string name="tab_discover">discover</string>
+
+    <string name="menu_action_delete">delete</string>
+    <string name="menu_action_select_all">select all</string>
+    <string name="menu_action_deselect_all">unselect all</string>
+
+    <string name="dlg_delete_message_delete_file_also">Delete file also?</string>
+    <string name="dlg_delete_message">Are you sure to delete the selected tasks?</string>
+    <string name="dlg_delete_title">Confirm Deletion</string>
+
+    <!-- download status -->
+    <string name="download_status_pending">connecting</string>
+    <string name="download_status_speed" translatable="false">%1$s/s</string>
+    <string name="download_status_pause">paused</string>
+    <string name="download_status_error">failed, click to retry</string>
+    <string name="download_status_completed">completed</string>
+
+    <string name="downloaded_date_just_now">just now</string>
+
+    <string name="dialog_title_new_download">Add new download</string>
+    <string name="download_url_hint">Paste url here</string>
+    <string name="download_url_verify_progress_message"><![CDATA[Verifying download link …]]></string>
+    <string name="dialog_new_download_btn_next">next</string>
+    <string name="dialog_new_download_url_label">Download link:</string>
+    <string name="dialog_new_download_error_message">Invalid download url or network error</string>
+
+    <!-- Select folder -->
+    <string name="select_folder_save">select</string>
+    <string name="select_folder_count">%1$d items</string>
+    <string name="select_folder_count_none">Empty</string>
+    <string name="select_folder_no_permission">No permission</string>
+    <string name="select_folder_no_permission_to_entry">No permission to access</string>
+    <string name="select_folder_activity_title">Choose download path</string>
+
+    <!-- associate app data -->
+    <string name="app_ins_name" translatable="false">Instagram</string>
+    <string name="app_ins_description">Download pictures &amp; videos from Instagram</string>
+    <string name="app_facebook_name" translatable="false">Facebook</string>
+    <string name="app_facebook_description">Download pictures &amp; videos from Facebook</string>
+    <string name="app_tumblr_name" translatable="false">Tumblr</string>
+    <string name="app_tumblr_description">Download pictures from Tumblr</string>
+    <string name="app_vimeo_name" translatable="false">Vimeo</string>
+    <string name="app_vimeo_description">Download videos from Vimeo</string>
+    <string name="app_vine_name" translatable="false">Vine</string>
+    <string name="app_vine_description">Download videos from Vine</string>
+    <string name="app_twitter_name" translatable="false">Twitter</string>
+    <string name="app_twitter_description">Download pictures &amp; videos from Twitter</string>
+
+    <!-- video detect -->
+    <string name="dlg_detect_title">Get download list\u2026</string>
+    <string name="dlg_detect_failed_title">Tips\u2026</string>
+    <string name="dlg_detect_failed">Oops, nothing founded. Please try again after the web page is fully loaded</string>
+    <string name="dlg_video_size_unknown">Unknown Size</string>
+    <string name="dlg_detect_progress_text"><![CDATA[Detecting videos & pictures …]]></string>
+    <string name="dlg_detect_subtitle">%1$d resources founded</string>
+
+
+    <!-- toast -->
+    <string name="toast_youtube_not_support">Youtube is not supported, due to the terms of Youtube service</string>
+
+    <string name="snack_bar_message">Found Instagram link in clipboard</string>
+    <string name="snack_action">DOWNLOAD</string>
+</resources>

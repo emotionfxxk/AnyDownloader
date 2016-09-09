@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:text="@string/dialog_title_new_download"
+        android:textSize="18sp" />
+
+    <View
+        android:id="@+id/content_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/title"
+        android:background="@color/download_divider_grey" />
+
+    <FrameLayout
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/content_divider" >
+        <include layout="@layout/content_input"/>
+        <include layout="@layout/content_progress" android:visibility="gone"/>
+        <include layout="@layout/content_file_info" android:visibility="gone"/>
+        <include layout="@layout/content_error_info" android:visibility="gone"/>
+    </FrameLayout>
+</RelativeLayout>

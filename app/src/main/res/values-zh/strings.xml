@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_settings">设定</string>
+    <string name="tab_discover">探索</string>
+    <string name="tab_finished">已完成</string>
+    <string name="tab_finished_fmt">已完成(%1$d)</string>
+    <string name="tab_running">进行中</string>
+    <string name="tab_running_fmt">进行中(%1$d)</string>
+    <string name="menu_action_delete">删除</string>
+    <string name="menu_action_deselect_all">全不选</string>
+    <string name="menu_action_select_all">全选</string>
+    <string name="dlg_delete_message">确定要删除选中的任务么？</string>
+    <string name="dlg_delete_message_delete_file_also">同时删除文件？</string>
+    <string name="dlg_delete_title">确认删除</string>
+    <string name="download_status_completed">完成</string>
+    <string name="download_status_error">失败，请点击重试</string>
+    <string name="download_status_pause">暂停</string>
+    <string name="download_status_pending">连接中</string>
+    <string name="downloaded_date_just_now">刚刚</string>
+    <string name="dialog_title_new_download">开始新的下载</string>
+    <string name="download_url_hint">粘贴下载链接</string>
+    <string name="download_url_verify_progress_message"><![CDATA[下载链接检验中 …]]></string>
+    <string name="dialog_new_download_btn_next">下一步</string>
+    <string name="dialog_new_download_url_label">下载链接:</string>
+    <string name="dialog_new_download_error_message">无效链接或者网络错误</string>
+    <string name="setting_title">设定</string>
+    <string name="wifi_network_only">只在WiFi连接时下载</string>
+    <string name="download_path_setting">下载路径设定</string>
+    <string name="download_auto_resume">自动恢复下载</string>
+    <string name="select_folder_count_none">空目录</string>
+    <string name="select_folder_no_permission">没有权限</string>
+    <string name="select_folder_no_permission_to_entry">没有权限访问</string>
+    <string name="select_folder_save">选择当前目录</string>
+    <string name="select_folder_count">%1$d个子目录</string>
+    <string name="select_folder_activity_title">选择下载路径</string>
+
+    <!-- associate app data -->
+    <string name="app_ins_description">从Instagram下载图片和视频</string>
+
+    <!-- video detect -->
+    <string name="dlg_detect_title">获取下载列表\u2026</string>
+    <string name="dlg_detect_failed_title">提示\u2026</string>
+    <string name="dlg_detect_failed">暂时没发现， 您可以在网页完全加载完再试</string>
+    <string name="dlg_video_size_unknown">未知大小</string>
+    <string name="dlg_detect_progress_text"><![CDATA[正在搜索可下载文件 …]]></string>
+    <string name="dlg_detect_subtitle">发现了%1$d个文件</string>
+    <string name="app_vimeo_description">从Vimeo下载视频</string>
+    <string name="app_vine_description">从Vine下载视频</string>
+    <string name="action_browser">浏览</string>
+    <string name="app_facebook_description">从脸书下载图片和视频</string>
+    <string name="app_tumblr_description">从汤不热下载图片</string>
+    <string name="app_twitter_description">从推特下载图片和视频</string>
+
+    <string name="toast_youtube_not_support">由于Youtube服务条款， 不支持从Youtube下载视频</string>
+
+    <string name="snack_bar_message">在剪切板中发现Instagram链接</string>
+    <string name="snack_action">下载</string>
+</resources>

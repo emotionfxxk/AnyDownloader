@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SolidFlatButton">
+        <attr name="roundCorner" format="boolean"/>
+        <attr name="cornerRadius" format="dimension"/>
+        <attr name="normalSolidColor" format="color"/>
+        <attr name="pressedSolidColor" format="color"/>
+        <attr name="normalTextColor" format="color"/>
+        <attr name="pressedTextColor" format="color"/>
+    </declare-styleable>
+</resources>

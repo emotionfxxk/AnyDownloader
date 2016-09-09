@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <!--<color name="colorPrimaryDark">#303F9F</color>-->
+    <color name="colorAccent">#ffca28</color>
+    <color name="primary_text">#000000</color>
+    <color name="secondary_text">#828282</color>
+
+    <color name="download_divider_grey">#7fc9ced1</color>
+    <color name="alert_red">#f44336</color>
+
+    <color name="colorBlue">#ffca28</color>
+    <color name="colorDarkBlue">#FFc107</color>
+
+    <color name="colorGreen">#7CB342</color>
+    <color name="colorDarkGreen">#558B2F</color>
+</resources>

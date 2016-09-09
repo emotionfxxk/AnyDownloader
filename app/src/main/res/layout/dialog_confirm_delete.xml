@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textColor="@color/primary_text"
+        android:text="@string/dlg_delete_title"
+        android:textSize="18sp" />
+    <View
+        android:id="@+id/content_divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/title"
+        android:background="@color/download_divider_grey" />
+
+    <RelativeLayout
+        android:id="@+id/content"
+        android:layout_below="@id/content_divider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textSize="15sp"
+            android:text="@string/dlg_delete_message"/>
+        <android.support.v7.widget.AppCompatCheckBox
+            android:id="@+id/checkbox"
+            android:layout_below="@id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/dlg_delete_message_delete_file_also"/>
+    </RelativeLayout>
+    <android.support.v7.widget.AppCompatButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btn_ok"
+        android:layout_below="@id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:text="@android:string/ok" />
+    <android.support.v7.widget.AppCompatButton
+        style="?android:attr/buttonBarButtonStyle"
+        android:id="@+id/btn_cancel"
+        android:layout_alignTop="@id/btn_ok"
+        android:layout_toLeftOf="@id/btn_ok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@android:string/cancel" />
+</RelativeLayout>
