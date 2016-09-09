@@ -2,11 +2,11 @@
 Multi-thread download
 Download pictures & videos from Tumblr, Twitter, Facebook, Vimeo & Vine
 
-###Google Play
-[Google Play](https://play.google.com/store/apps/details?id=com.vivid.nanodownloader&hl=en)
+###Google Play [Link](https://play.google.com/store/apps/details?id=com.vivid.nanodownloader&hl=en)
+
+
 
 ![SC](https://raw.githubusercontent.com/emotionfxxk/AnyDownloader/master/screenshot/main.png)
-![SC](https://raw.githubusercontent.com/emotionfxxk/AnyDownloader/master/screenshot/download.png)
 
 ### License
 
